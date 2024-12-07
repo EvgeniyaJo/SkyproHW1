@@ -1,0 +1,43 @@
+.catalog__modform {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 541px;
+    height: 548px;
+}
+
+.fieldset__legend {
+    color: rgb(5, 5, 5);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 14px;
+}
+.radio{
+display: flex;
+align-items: center;
+}
+.radio__del-time {
+    display: none;
+}
+.radio__label {
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+.radio__del-time + .radio__label::before{
+content: "";
+position: absolute;
+left: 0;
+top: 50%;
+width: 15px;
+height: 15px;
+border: 1px solid rgb(136, 136, 136);
+border-radius: 50%;
+background: white;
+}
